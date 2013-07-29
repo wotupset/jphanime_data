@@ -1,10 +1,13 @@
-﻿1969~2012年裏番動畫目錄表 (Hanime)
+﻿japanese adult Hanime list
 google doc
 https://docs.google.com/spreadsheet/pub?key=0AjOHlgjkXl6HdFgwS1ducEljUFRnZGRrWXVzWnZsZHc&output=html
 github
 https://github.com/wotupset/jphanime_data
 
 Maintain history: wotupset
+下午 05:24 2013/7/29
+檔案更名
+
 2013-07-29 
 開始使用git版本庫維護更新
 2013年的資料開始更新 
