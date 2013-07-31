@@ -4,6 +4,8 @@ https://docs.google.com/spreadsheet/pub?key=0AjOHlgjkXl6HdFgwS1ducEljUFRnZGRrWXV
 github
 https://github.com/wotupset/jphanime_data
 
+master
+
 Maintain history: wotupset
 下午 05:24 2013/7/29
 檔案更名
