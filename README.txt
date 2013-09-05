@@ -7,6 +7,7 @@ https://github.com/wotupset/jphanime_data
 master
 
 Maintain history: wotupset
+下午 08:15 2013/9/5
 上午 01:48 2013/8/27
 上午 05:11 2013/8/14
 下午 05:24 2013/7/29
