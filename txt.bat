@@ -1,6 +1,6 @@
 rem @echo off
 echo type "commit" or "update"
-cd "curl"
+cd .
  
 set GIT_PATH="C:\Program Files\Git\bin\git.exe"
 set BRANCH = "origin"
