@@ -3,7 +3,7 @@ echo type "commit" or "update"
 cd .
  
 set GIT_PATH="C:\Program Files\Git\bin\git.exe"
-set BRANCH = "origin"
+set BRANCH = "new"
  
 :P
 set ACTION=
