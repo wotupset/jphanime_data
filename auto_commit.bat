@@ -1,7 +1,7 @@
 rem @echo off
 cd .
 set GIT_PATH="C:\Program Files\Git\bin\git.exe"
-set BRANCH = "new"
+set BRANCH = "new2"
  
 %GIT_PATH% add -A
 %GIT_PATH% commit -am "Auto-committed on %date%"
