@@ -1,4 +1,4 @@
-rem @echo off
+@echo off
 echo type "commit" or "update"
 cd .
  
