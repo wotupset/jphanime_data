@@ -1,5 +1,5 @@
 @echo off
-echo type "commit" or "update"
+echo type "c (commit)" or "u (update)"
 cd .
  
 set GIT_PATH="C:\Program Files\Git\bin\git.exe"
