@@ -1,5 +1,5 @@
 set GIT_PATH="..\PortableGit\bin\git.exe"
-set BRANCH = "origin"
+set BRANCH="origin"
 
 %GIT_PATH% config --list
 %GIT_PATH% --version
