@@ -26,6 +26,7 @@ git config --global user.email "wotupset@gmail.com"
 
 git config --list
 
+git config --global push.default simple
 
 @echo off
 echo type "c (commit)" or "u (update)"
