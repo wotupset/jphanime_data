@@ -1,5 +1,6 @@
 set GIT_PATH="..\PortableGit\bin\git.exe"
 set BRANCH="origin"
+set BRANCH2="oschina"
 
 %GIT_PATH% config --list
 %GIT_PATH% --version
@@ -13,8 +14,7 @@ echo %date%>>version.txt
 %GIT_PATH% push %BRANCH%
 pause
 
-set BRANCH = "oschina"
-%GIT_PATH% push %BRANCH%
+%GIT_PATH% push %BRANCH2%
 
 pause
 exit
