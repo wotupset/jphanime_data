@@ -1,12 +1,12 @@
-
 set GIT_PATH="..\PortableGit\bin\git.exe"
+set BRANCH = "origin"
+
 %GIT_PATH% config --list
 %GIT_PATH% --version
 
 echo %date%>>version.txt
 
 
-set BRANCH = "origin"
 %GIT_PATH% add -A
 %GIT_PATH% commit -am "Auto-committed on %date%"
 %GIT_PATH% pull %BRANCH%
