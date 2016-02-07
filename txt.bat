@@ -5,7 +5,7 @@ set BRANCH2="oschina"
 %GIT_PATH% config --list
 %GIT_PATH% --version
 
-echo %date%>>version.txt
+echo %date:~0,10% %time%>>version.txt
 
 
 %GIT_PATH% add -A
