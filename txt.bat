@@ -5,15 +5,14 @@ set BRANCH2="oschina"
 %GIT_PATH% config --list
 %GIT_PATH% --version
 
-echo %date:~0,10% %time%>>version.txt
+echo %date:~0,10%,%time:~0,5%>>version.txt
 
 
 %GIT_PATH% add -A
 %GIT_PATH% commit -am "Auto-committed on %date%"
 %GIT_PATH% pull %BRANCH%
 %GIT_PATH% push %BRANCH%
-pause
-
+rem pause
 %GIT_PATH% push %BRANCH2%
 
 pause
