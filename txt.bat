@@ -12,6 +12,8 @@ echo %date:~0,10%,%time:~0,5%>>version.txt
 %GIT_PATH% commit -am "Auto-committed on %date%"
 %GIT_PATH% pull %BRANCH%
 %GIT_PATH% push %BRANCH%
+
+exit
 rem pause
 %GIT_PATH% push %BRANCH2%
 
