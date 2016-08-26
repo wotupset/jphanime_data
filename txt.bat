@@ -2,6 +2,8 @@ set GIT_PATH="..\PortableGit\bin\git.exe"
 set BRANCH="github"
 
 
+
+
 %GIT_PATH% config --list
 %GIT_PATH% --version
 
@@ -14,6 +16,15 @@ echo %date:~0,10%,%time:~0,5%>>version.txt
 %GIT_PATH% push %BRANCH%
 pause
 exit
+
+
+
+%GIT_PATH% push -u github master
+pause
+exit
+
+
+
 
 set BRANCH2="oschina"
 rem pause
