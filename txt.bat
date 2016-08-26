@@ -1,5 +1,5 @@
 set GIT_PATH="..\PortableGit\bin\git.exe"
-set BRANCH="github"
+set BRANCH="master"
 
 
 %GIT_PATH% config --list
