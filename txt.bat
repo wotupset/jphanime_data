@@ -6,8 +6,8 @@ echo %date:~0,10%,%time:~0,5%>>version.txt
 
 git add -A
 git commit -am "Auto-committed on %date%"
-git pull %BRANCH%
-git push %BRANCH%
+git pull "github" master
+git push "github" master
 pause
 exit
 
