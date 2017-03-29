@@ -1,3 +1,23 @@
+git config --list
+git --version
+
+echo %date:~0,10%,%time:~0,5%>>version.txt
+
+
+git add -A
+git commit -am "Auto-committed on %date%"
+git pull %BRANCH%
+git push %BRANCH%
+pause
+exit
+
+
+
+
+
+
+
+
 set GIT_PATH="..\PortableGit\bin\git.exe"
 set BRANCH="github"
 
