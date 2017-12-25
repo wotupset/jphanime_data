@@ -1,8 +1,18 @@
+git config ¡Vglobal core.quotepath false
+git config --global gui.encoding utf-8         
+git config --global i18n.commit.encoding utf-8  
+git config --global i18n.logoutputencoding utf-8  
+
+
+
 git config --global user.name "wotupset"
 git config --global user.email "wotupset@gmail.com"
 
 git --version
 git config --list
+
+
+
 
 git add -A
 git commit -am "Auto-committed on %date%"
@@ -10,6 +20,8 @@ git pull "github" master
 git push "github" master
 pause
 exit
+
+
 
 
 echo %date:~0,10%,%time:~0,5%>>version.txt
