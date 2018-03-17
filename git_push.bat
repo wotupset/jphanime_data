@@ -21,7 +21,7 @@ git push "github" master
 pause
 exit
 
-
+ssh-keygen -t rsa
 
 
 echo %date:~0,10%,%time:~0,5%>>version.txt
