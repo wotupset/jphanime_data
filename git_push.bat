@@ -9,7 +9,7 @@ git config --global user.name "wotupset"
 git config --global user.email "wotupset@gmail.com"
 
 git --version
-git config --list
+rem git config --list
 
 
 
