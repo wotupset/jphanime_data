@@ -18,8 +18,14 @@ git add -A
 git commit -am "Auto-committed on %date%"
 git pull "github" master
 git push "github" master
-pause
+
+
 exit
+pause
+
+
+echo %date:~0,10%,%time:~0,5%>>version.txt
+
 
 ssh-keygen -t rsa
 
@@ -42,7 +48,6 @@ set BRANCH="github"
 %GIT_PATH% config --list
 %GIT_PATH% --version
 
-echo %date:~0,10%,%time:~0,5%>>version.txt
 
 
 %GIT_PATH% add -A
