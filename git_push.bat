@@ -20,9 +20,9 @@ git pull "github" master
 git push "github" master
 
 
-exit
-pause
 
+pause
+exit
 
 echo %date:~0,10%,%time:~0,5%>>version.txt
 
