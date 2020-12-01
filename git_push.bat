@@ -16,8 +16,8 @@ rem git config --list
 
 git add -A
 git commit -am "Auto-committed on %date%"
-git pull "github" master
-git push "github" master
+git pull "origin" master
+git push "origin" master
 
 
 
