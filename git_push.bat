@@ -4,7 +4,6 @@ git config --global i18n.commit.encoding utf-8
 git config --global i18n.logoutputencoding utf-8  
 
 
-
 git config --global user.name "wotupset"
 git config --global user.email "wotupset@gmail.com"
 
@@ -12,12 +11,10 @@ git --version
 rem git config --list
 
 
-
-
 git add -A
 git commit -am "Auto-committed on %date%"
-git pull "origin" master
-git push "origin" master
+git pull "github-ssh" master
+git push "github-ssh" master
 
 
 
